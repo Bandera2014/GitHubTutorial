@@ -64,8 +64,8 @@ If you are using Windows you will need to download [Gitbash](https://gitforwindo
 <div id='pdm01'/>
 
 ## 4. Project Development 
-When you are developing project, there are two ways you can upload projects and create new project. One way is to create the repository on github, clone the link to your pc, and work from there. This is considered the preferred method when pushing to
-github. The other methods is working on a local project, deciding to create the repository on git hub and push it via remote.
+When you are developing project, there are two ways you can upload projects and create new project. One way is to create the repository on Github, clone the link to your pc, and work from there. This is considered the preferred method when pushing to
+Github. The other methods is working on a local project, deciding to create the repository on git hub and push it via remote.
 
 We will cover both methods.
 
@@ -76,7 +76,7 @@ We will cover both methods.
 This is the most preferred method mainly for initializing a new project from scratch that is already added to git. You can create a new project easier this way and keep up with additions that you have for your project without worrying about initialization. 
 
 ### To start a new repository
-- Go to your github
+- Go to your Github
 - Left-Click on the plus dropdown icon which up in the top left corner of the screen.
 
 <br><kbd><img src='images/02newrepo.png'><br><i>Figure 5.1: New repo selection.</i></kbd><br>
@@ -174,9 +174,9 @@ what you had appears.
 
 <div id='pdm02'/>
 
-## 7. Method 2
+## 7. Method 2 - Not Recommended
 This section will allow you to create a new repository from an existing project
-to upload to github. This isn't the recommended method, but can help if you
+to upload to Github. This isn't the recommended method, but can help if you
 decide to push a new repo for displaying. The reason for not being recommended
 is that you will also have to create a remote repository instead of just one
 already initialized from your repo.
@@ -207,15 +207,14 @@ You will be presented with the Quick Started screen with multiple options
 <kbd>
 <img src="images/11Gitexistingrepo.png"><br><i>Figure 8.1: Git creating existing repo</i></kbd>
 
-
 - Copy the Https address
-- go back to your terminal
-- type the following command: ```git remote add origin httpsaddress```
+- Go back to your terminal
+- Type the following command: ```git remote add origin httpsaddress```
 
 <kbd><img src="images/12Gitremoteadd.png"><br><i>Figure 8.2: Git remote add successful</i></kbd>
 
 Once you type this command, you will create a new remote repo added to your
-github profile. You'll need to check to see if remote has been added. You should 
+Github profile. You'll need to check to see if remote has been added. You should 
 get the message origin. You can then change the remote name (usually master)
 
 ```git remote add remotename httpsaddress```
